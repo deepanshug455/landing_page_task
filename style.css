@@ -1,0 +1,227 @@
+body{
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-image: url("tech.jpg"); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+header nav ul li a:hover{
+    color: #ffbd2f;
+}
+
+.hero {
+    padding: 2em 0;
+    color: #fff;
+    position: relative;
+}
+
+.hero h1:hover{
+    color: #ffbd2f;
+}
+.hero p:hover{
+    color: #ffbd2f;
+    transform: scale(1.3);
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background: #00b894;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+.btn:hover{
+    color: #ffbd2f;
+    background-color:rgb(17, 110, 3);
+    transform: scale(1.4);
+}
+
+main {
+    padding: 2em 1em;
+    background-image: url("unique.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section {
+    margin: 2em 0;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    color:black
+}
+
+section h2:hover{
+    color: #DC6B19;
+    /* transform: scale(1.2); */
+}
+
+.course-container {
+    
+    display: flex;
+    justify-content:center;
+    background-image: url("yellow.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.course {
+    flex: 1;
+    margin: 0 .7em;
+    padding:.5em;
+    background: #ccc;
+    border-radius: 5px;
+    text-align: center;
+    }
+section .course h3:hover{
+    color:rgb(165, 3, 41);
+    transform:scale(1.3);
+}
+
+section .course p{
+    color: black;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+}
+#courses{
+    text-align: center;
+    color: black;
+}
+
+.email{
+    text-decoration: none;
+}
+.email:hover{
+    color:black;
+}
+
+.tel{
+    text-decoration: none;
+}
+.tel:hover{
+    color: black;
+}
+.tweet{
+    text-decoration: none;
+} 
+.tweet:hover{
+    color: black;
+} 
+
+
+
+/* additional */
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+    padding: 30px 0;
+    /* background-color:black; */
+    background-color: #333;
+
+}
+.footer .social{
+    text-align:center;
+    padding-bottom:25px;
+    color: white;
+}
+.footer .social a{
+    font-size: 24px ;
+    color: white;
+    border: 2px solid orangered;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 0 10px orangered , 0 0 10px orangered;
+    transition: 0.3 ease;
+}
+ 
+.footer .social a:hover{
+    transform: scale(1.2) translateY(-10px);
+    color: orangered;
+    border: 2px solid orangered;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 10px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align:center;
+}
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.footer ul li a:hover{
+    border-bottom: 3px solid orange;
+}
+.footer ul li{
+    display: inline-block ;
+    padding: 0 15px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+.footer .copyright{
+    margin-top:15px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
